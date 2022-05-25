@@ -1,0 +1,33 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+table 
+{
+    font-size: 18px;
+    width: 100%;
+}
+table, th, td 
+{
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 2px 3px;
+    text-align: center;
+}
+
+input[type='button'] 
+{   
+    cursor: pointer;
+    border: none;
+    color: #FFF;
+}
+
+input[type='text'], select 
+{
+    text-align: center;
+    border: solid 1px black;
+    width: auto;
+    padding: 2px 3px;
+}
